@@ -9,6 +9,6 @@ from .pag_reporte import reportes
 # importamos modelos
 from .modelos.personal_model import PERSONAL_TBL
 from .repositorios.personal_repositorio import seleccionar_todos
-from .estilo_tabla import style_table
+from .estilos.estilo_tabla import *
 
 
