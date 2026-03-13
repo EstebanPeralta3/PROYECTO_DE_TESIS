@@ -6,6 +6,12 @@ def contenido() -> rx.Component:
         rx.vstack(
             rx.heading("Reportes"),
             rx.badge("Contenido de Reportes"),
+            rx.box(
+                width="200px",
+                height="200px",
+                bg="red",
+                padding="20px",
+            ),
             spacing="3"
         ),
         width="100%"
