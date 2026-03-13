@@ -8,7 +8,9 @@ from .servicios.personal_servicios import (seleccionar_todo_el_personal_sevicio,
                                            actualizar_personal_serv)
 from mi_aplicacion_web.notificacion import notificacion_de_error
 import asyncio
-from .estilos.estilo_tabla import *
+from .estilos.estilo_tabla import (style_table,
+                                   style_header,
+                                   style_row)
 
 class PersonalState(rx.State):
      
