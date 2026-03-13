@@ -1,0 +1,10 @@
+.states
+*.py[cod]
+__pycache__/
+*.db
+.web
+
+# Entorno virtual
+.venv/
+venv/
+env/
